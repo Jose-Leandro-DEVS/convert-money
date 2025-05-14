@@ -1,0 +1,110 @@
+/********** Estilização Global **********/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+/********** Estilização do corpo da pagina **********/
+body{
+    background-color: #43C5F4;
+}
+
+/********** Estilização da logo principal **********/
+.logo{
+    width: 300px; /*375*/
+    display: block;
+    margin: 10px auto;
+}
+
+/********** Estilização do conteudo principal **********/
+main{
+    display: block;
+    width: 375px;
+    background-color: rgba(244, 244, 244, 1);
+    margin: 0 auto 40px;
+    border-radius: 20px;
+    padding: 44px 24px 23px;
+}
+
+/********** Estilização da label **********/
+label{
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/********** Estilização conjunta do SELECT  e INPUT **********/
+select, input{
+    background: #ffffff;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 17px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+}
+
+/********** Estilização do botão **********/
+button{
+    background: #20598F; /*1c3857*/
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    transition: 0.5s ease;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button::active{
+    opacity: 0.6;
+}
+
+/********** Estilização da Section **********/
+section{
+    border: 2px solid #772fd3;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/********** Estilização da Seta imagem **********/
+.arrow-img{
+    margin: 15px 0;
+    background-image: #20598F;
+}
+
+/********** Estilização da caixa Section **********/
+.currency-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+/********** Estilização da moeda **********/
+.currency{
+    color: #777777;
+    font-size: 14px;
+}
+
+.currency-value, .currency-convert-to-value{
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}
